@@ -20,6 +20,14 @@
   margin-bottom: 26px;
 }
 
+.description{
+  font-size: 14px;
+  color: #727272;
+  font-weight:400;
+}
+
+
+
 /* Header section started */
 header {
   background-color: rgba(255, 144, 14, 0.1);
@@ -80,4 +88,39 @@ nav li a {
 /* banner section finished */
 
 /* header section finished */
-/* responsive design started */
+
+/* main styles */
+
+main{
+  max-width: 1245px;
+  margin:0 auto;
+}
+/* teams section started  */
+
+.teams-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 100px 100px;
+  margin-bottom: 100px;
+}
+.teams-img-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+
+}
+
+.teams-img-container img{
+  width: 270px;
+}
+.teams-title{
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+.text-features{
+  color:#FF900E;
+  font-weight: 700;
+}
+/* teams section finished */
