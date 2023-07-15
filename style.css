@@ -23,7 +23,7 @@
 /* Header section started */
 header {
   background-color: rgba(255, 144, 14, 0.1);
-  padding: 33px 130px 130px 130px;
+  padding: 33px 100px 130px 100px;
 }
 
 /* nav section started */
@@ -54,16 +54,17 @@ nav li a {
 /* nav section finished */
 
 /* banner section started */
-.banner{
-    padding: 20px;
-}
+ .banner{
+  margin:0 auto;
+  width: 100%;
+ }
 .banner-content {
   max-width: 800px;
   text-align: center;
   margin: 0 auto;
 }
 .banner-title {
-  color: var(--dark-01, #131313);
+  color:  #131313;
   text-align: center;
   font-size: 64px;
   font-weight: 700;
