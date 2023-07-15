@@ -142,12 +142,10 @@ main {
   padding: 20px 30px;
 }
 .card{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 13px;
+  display: block;
+  margin:0 auto;
   width: 200px;
+
 }
 .facts-description{
   line-height:20px;
