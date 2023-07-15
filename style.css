@@ -6,14 +6,24 @@
   scroll-behavior: smooth;
   font-family: "Work Sans", sans-serif;
 }
-.btn-primary{
-    
+.btn-primary {
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 18px 22px;
+  cursor: pointer;
+  border: 0;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 /* Header section started */
 header {
   background-color: rgba(255, 144, 14, 0.1);
-  padding:33px 130px 130px 130px;
+  padding: 33px 130px 130px 130px;
 }
 
 /* nav section started */
@@ -44,6 +54,9 @@ nav li a {
 /* nav section finished */
 
 /* banner section started */
+.banner{
+    padding: 20px;
+}
 .banner-content {
   max-width: 800px;
   text-align: center;
@@ -56,10 +69,14 @@ nav li a {
   font-weight: 700;
   margin-bottom: 50px;
 }
-.banner-description{
-    color: #727272; ;
+.banner-description {
+  color: #727272;
+}
+.banner img{
+    width:100%;
 }
 
 /* banner section finished */
 
 /* header section finished */
+/* responsive design started */
