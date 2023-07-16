@@ -21,7 +21,7 @@
 }
 
 .description {
-  font-size: 14px;
+  font-size: 1rem;
   color: #727272;
   font-weight: 400;
   margin-top: 20px;
@@ -75,7 +75,7 @@ nav li a {
 .banner-title {
   color: #131313;
   text-align: center;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
   margin-bottom: 50px;
 }
@@ -127,7 +127,7 @@ main {
 
 /* features section started */
 .facts{
-  padding: 33px 100px 130px 100px;
+  padding: 33px 30px 130px 30px;
 }
 .facts-card-container{
   display: flex;
@@ -170,3 +170,56 @@ main {
 
 /* Sponsors section finished */
 
+/* features lady section started */
+.lady{
+  display: flex;
+  margin-top: 130px;
+  gap: 100px;
+  justify-content: space-around;
+}
+.lady-img{
+  width:580px;
+  padding: 10px;
+}
+.lady-img img{
+  width: 100%;
+}
+.lady-content{
+  width:500px;
+}
+.lady .box{
+  border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.2);
+padding: 30px;
+margin-bottom: 20px;
+}
+.lady .title{
+  border-left: 2px solid #FF900E;
+  padding-left: 10px;
+}
+
+.ten-year{
+  border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+text-align: center;
+font-weight: 700;
+width: 300px;
+padding: 20px;
+position: relative;
+bottom: 100px;
+right: 60px;
+}
+.ten-year h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+
+}
+.ten-year p{
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+
+/* features lady section finished */
