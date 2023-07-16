@@ -1,4 +1,8 @@
 @media screen and (max-width: 576px) {
+
+  body{
+    font-size: 12px;
+  }
   .btn-responsive {
     font-size: 1rem;
     padding: 9px 11px;
@@ -83,6 +87,9 @@ width: auto;
   
 }
 @media screen and (min-width: 577px) and (max-width: 900px) {
+  body{
+    font-size: 14px;
+  }
   nav {
     flex-direction: column;
     text-align: center;
